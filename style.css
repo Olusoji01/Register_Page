@@ -211,7 +211,7 @@
     margin-left: 60px;
     margin-top: 25px; 
 }
-.div_form ::placeholder{
+.div_form::placeholder{
     color: rgba(1, 28, 52, 1);
     padding-left: 10px;
 }

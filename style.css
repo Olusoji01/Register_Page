@@ -273,7 +273,7 @@ form #passwordInput{
     display: block;
     width: 580px;
     position: absolute;
-    bottom: 3px;
+    bottom: 60px;
     right: 155px;   
 }
 .bottom_text a{

@@ -140,7 +140,6 @@
         width: 5%;
         position: absolute;
         top: 993px;
-        align-self: inherit;
         right: 100px;
         font-size: larger;
     }
@@ -283,10 +282,10 @@ form #passwordInput{
 
 .div_form form .item i{
     position: absolute;
-    bottom: 164px;
+    bottom: 220px;
     right: 160px;
     font-size: larger;
-} 
+}
 }
 
 

@@ -125,7 +125,7 @@
         width: 295px;
         display: block;
         position: absolute;
-        top: 1170px;
+        top: 1130px;
         align-self: center;
         text-align: center; 
         font-size: 14px;
@@ -139,13 +139,13 @@
     #toggleIcon, #iconHide{
         width: 5%;
         position: absolute;
-        top: 993px;
+        top: 990px;
         right: 100px;
         font-size: larger;
     }
 }
 
-@media screen and (min-width: 601px){
+@media screen and (min-width: 769px){
     * {
         margin: 0;
         padding: 0;

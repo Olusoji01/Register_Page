@@ -80,21 +80,34 @@
     }
     .div_form::placeholder{
         color: rgba(1, 28, 52, 1);
-        padding-left: 10px;
+        padding-left: 16px;
     }
     #mobile_form p{
         width: 295px;
         height: 72px;
         margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    form label{
+        display: block;
+        color:rgba(1, 28, 52, 1);
+        font-weight: 600px;
+        font-size: 14px;
+        margin-bottom: 8px;
+        font-family: "Sofia Pro", sans-serif;
+        letter-spacing: 0.10000000149011612px;
+        text-align: left;
     }
     form input{
         width: 295px;
         height: 48px;
+        padding-left: 16px;
+
     }
     form select{
         width: 295px;
         height: 48px;
-        padding-left: 10px;
+        padding-left: 16px;
     }
     .div_form .item{
         display: block;
@@ -120,6 +133,8 @@
         text-align: center;
         letter-spacing: 0.2px;
         font-family: "Sofia Pro";
+        border-radius: 5px;
+        margin-top: 20px;
     }
     .div_form form .bottom_text{
         width: 295px;
@@ -132,6 +147,7 @@
         line-height: 25px;
         font-weight: 500;
         font-family: "Sofia Pro", sans-serif;
+        background-color: none;
     }
     .bottom_text a{
         color: rgba(46, 196, 182, 1);
@@ -212,13 +228,17 @@
 }
 .div_form::placeholder{
     color: rgba(1, 28, 52, 1);
-    padding-left: 10px;
+    padding-left: 16px;
 }
 form label{
     display: block;
-    color: rgba(1, 28, 52, 1);
+    color:rgba(1, 28, 52, 1);
     font-weight: 600px;
     font-size: 14px;
+    margin-bottom: 8px;
+    font-family: "Sofia Pro", sans-serif;
+    letter-spacing: 0.10000000149011612px;
+    text-align: left;
 }
 form p{
     width: 238px;
@@ -234,6 +254,7 @@ form select{
     width: 270px;
     height: 48px;
     column-gap: 0px;
+    padding-left: 16px;
 }
 form #Activity{
     width: 600px;
@@ -267,14 +288,23 @@ form #passwordInput{
     text-align: center;
     letter-spacing: 0.2px;
     font-family: "Sofia Pro";
+    border-style: none;
+    border-radius: 2px;
+}
+.item select{
+    color: rgba(1, 28, 52, 1);
+    padding-left: 40px;
+}
+input{
+    padding-left: 16px;
 }
 .bottom_text{
     grid-column: span 2;
     display: block;
     width: 580px;
     position: absolute;
-    bottom: 60px;
-    right: 155px;   
+    bottom: 45px;
+    right: 140px;   
 }
 .bottom_text a{
     color: rgba(46, 196, 182, 1);
